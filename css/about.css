@@ -1,0 +1,52 @@
+  .profile-box {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .section-profile-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1D2B5B;
+    margin-bottom: 1rem;
+    text-align: left; /* Posisi kiri atas */
+  }
+  .section-subtitle {
+    color: #606060;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify; /* Rata kanan kiri */
+    margin: 0;
+  }
+
+  .hero {
+    background: linear-gradient(135deg, #4f93ff, #76c2f5);
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+  }
+  .hero img {
+    width: 60%;
+    max-width: 500px;
+    margin-top: 30px;
+  }
+  .section-title {
+    color: #2c3e50;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .staff-section {
+    background: linear-gradient(to right, #3a8dff, #0066cc);
+  }
+
+  .features .feature-item {
+    text-align: center;
+    padding: 20px;
+  }
+  .footer {
+    background: linear-gradient(135deg, #4f93ff, #76c2f5);
+    color: white;
+    padding: 40px 0;
+  }

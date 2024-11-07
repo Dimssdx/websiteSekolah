@@ -1,0 +1,63 @@
+.date-main-label {
+    display: inline-block;
+    background-color: #5BA3FF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.date-label {
+    display: block;
+    width: fit-content;
+    text-align: center;
+    background-color: #5BA3FF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1D1D1D;
+}
+
+.author {
+    color: #6C757D;
+    font-size: 14px;
+}
+
+.btn-read-more {
+    color: #FFA500;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-article .card-img-top {
+    border-radius: 8px;
+}
+
+.small-article .card-title {
+    font-size: 1rem;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #5A5A5A;
+}
+
+.main-article {
+    display: flex;
+}
+
+.main-article .card-body {
+    padding: 20px;
+}

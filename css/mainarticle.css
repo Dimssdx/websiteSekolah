@@ -1,0 +1,50 @@
+.container {
+    max-width: 1200px;
+}
+
+.hero-gradient {
+    position: absolute;
+}
+
+article {
+    height: fit-content;
+}
+
+.app-header{
+    height: 150px !important;
+}
+
+.main-article-img {
+    width: 100%; 
+}
+
+.date-label {
+    display: inline-block;
+    background-color: #5BA3FF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.article-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1D1D1D;
+    margin-bottom: 10px;
+}
+
+.author {
+    color: #6C757D;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.article-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}

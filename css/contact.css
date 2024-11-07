@@ -1,0 +1,40 @@
+.hero-title {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 600;
+    top: 80px;
+    color: white;
+}
+
+.contact-title-subtitle {
+    text-align: center;
+}
+
+.contact-info .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-info .info-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.contact-form input, .contact-form textarea {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+.contact-form button {
+    background-color: #f6b944;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.contact-form button:hover {
+    background-color: #d79b35;
+}
