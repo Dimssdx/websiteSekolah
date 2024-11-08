@@ -59,6 +59,7 @@
 .card-text {
   font-size: 14px;
   color: #5a5a5a;
+  text-align: justify;
 }
 
 .main-article {

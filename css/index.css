@@ -164,11 +164,13 @@
     color: #333333;
     font-size: 1.1rem;
     margin-top: 10px;
+    text-align: justify;
 }
 
 .card-text {
     font-size: 0.9rem;
     color: #6c757d; /* Warna teks abu-abu */
+    text-align: justify;
 }
 
 .card-img-container {
