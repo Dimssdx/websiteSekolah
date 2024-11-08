@@ -1,81 +1,86 @@
 .nav-link {
-    color: white;
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+  font-weight: 600;
 }
 
 .btn-nav {
-    color: white;
-    border: 1px solid white;
-    padding: 8px 28px;
-    border-radius: 30px;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 28px;
+  border-radius: 30px;
+  text-decoration: none;
 }
 
 .app-header {
-    position: relative;
-    height: 800px;
+  position: relative;
+  height: 800px;
 }
 
 .hero-gradient {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
 
 body {
-    font-family: "Poppins", serif;
+  font-family: "Poppins", serif;
 }
 
 .hero-section {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-section {
-    border-top: 1px solid #ffffff; /* Garis atas untuk pembatas */
-    position: relative;
-    padding: 40px 20px;
-    color: #555555;
-
+  border-top: 1px solid #ffffff; /* Garis atas untuk pembatas */
+  position: relative;
+  padding: 40px 20px;
+  color: #555555;
 }
 
 .footer-section p {
-    color: #555555;
-    font-size: 0.95rem;
+  color: #555555;
+  font-size: 0.95rem;
 }
 
 .footer-section h6 {
-    color: #2b2b85; /* Warna biru gelap untuk heading */
-    margin-bottom: 1rem;
+  color: #2b2b85; /* Warna biru gelap untuk heading */
+  margin-bottom: 1rem;
 }
 
 .footer-section a {
-    color: #555555;
-    text-decoration: none;
-    font-size: 0.95rem;
+  color: #555555;
+  text-decoration: none;
+  font-size: 0.95rem;
 }
 
 .footer-section a:hover {
-    color: #2b2b85;
+  color: #2b2b85;
 }
 
 .footer-section .container {
-    position: relative;
+  position: relative;
 }
 
 .footer-section .square-yellow::before {
-    content: "";
-    position: absolute;
-    top: 4px;
-    right: 120px;
-    width: 30px;
-    height: 30px;
-    background-color: #ffcd00; /* Warna kuning */
-    border-radius: 3px;
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 120px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffcd00; /* Warna kuning */
+  border-radius: 3px;
 }
 
 .footer-component-1 {
-    position: absolute;
-    top: 20px;
+  position: absolute;
+  top: 20px;
 }
